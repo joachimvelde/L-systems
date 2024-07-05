@@ -95,7 +95,7 @@ State rotate_right(Stack stack, State cur_state)
     return new_state;
 }
 
-// This calls the correcct functions to draw a single seed
+// This calls the correct functions to draw a single seed
 void draw(char *seed, Stack *stack)
 {
     State pos = stack->array[stack->top];
